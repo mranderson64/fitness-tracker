@@ -1,5 +1,5 @@
 <?php
-include('config.php');
+include 'config.php';
 $host = $protocol . $_SERVER['HTTP_HOST'];
 
 // Create connection
@@ -21,7 +21,7 @@ echo $resultF;
 echo $resultW;
 $conn->close();
 ?>
-<?php include ('head.php'); ?>
+<?php include 'head.php'; ?>
 <canvas id="myChart" width="400" height="400"></canvas>
 <script>
 var fitnes = <?php echo $resultF;?>;
