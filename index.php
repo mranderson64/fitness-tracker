@@ -30,6 +30,8 @@ var weight = [<?php
 		while($row = $resultW->fetch_assoc()) {
 			echo "{x: " . $row["date"]. ",y: " . $row["weight"]. "},";
 		}
+	}else {
+		echo "0 rows";
 	}
 ?>];
 var ctx = document.getElementById('myChart').getContext('2d');
