@@ -20,6 +20,7 @@ $resultW = $conn->query($sqlW);
 echo $resultF;
 echo $resultW;
 $conn->close();
+echo "test";
 ?>
 <?php include 'head.php'; ?>
 <canvas id="myChart" width="400" height="400"></canvas>
