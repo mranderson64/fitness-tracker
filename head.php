@@ -11,5 +11,5 @@
 
 </style>
 </head>
-<script src="<?php echo $host ?>/scripts/Chart.min.js"></script>
+<script src="/scripts/Chart.min.js"></script>
 <body>
